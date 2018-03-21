@@ -178,11 +178,34 @@ header{
     left: 50%;
     margin-left: -400px;
     border-top: 10px solid white;
-
 }
 .question-row{
 	width: auto;
 	height: 500px;
 	border: 3px solid grey;
 	border-radius: 5px;
+}
+.q{
+	width: auto;
+}
+.q-top{
+	height: 33%;
+	border-bottom: 2px solid blue;
+}
+.q-bot{
+	height: 65%;
+}
+.buttons-group{
+	display:inline-block;
+	margin-left: 40%;
+
+}
+.btn{
+
+	display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 25px;
 }
