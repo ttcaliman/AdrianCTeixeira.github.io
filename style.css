@@ -11,6 +11,22 @@ header{
 	width: 100%;
 }
 
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navlogo{
+	margin: 0;
+    display: inline-block;
+    width: 40%;
+}
+.navmenu {
+	    margin: 0;
+    display: inline-block;
+    width: 50%;
+    position: fixed;
+}
 #block{
 	width: 85%;
 	height: 100%;
@@ -18,30 +34,29 @@ header{
 	margin-left: 7.5%;
 }
 #block img{
-	max-width: 24%;
-	max-height: 24%;
-	margin-left: 10px;
+	    max-width: 60%;
+    margin-left: 10px;
 }
 #logoli-hr{	
-    width: 2px;
+   width: 2px;
     background-color: #e9e9e9;
     display: inline-block;
-    margin: 0 0 0 10%;
-    padding-top: 6%;
+    margin: 0px 0 0 25%;
+    padding-top: 15%;
 }
 #block ul{
-	display: inline-block;	
-    margin: 27px 0px 0px 7%;
-    position: absolute;
+	    display: flex;
+    margin: 27px 0px 0px 5%;
+ 
 }
 #block ul li{
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 #block p{
-	color: #8c8c8c;
-    display: inline-block;
-    margin-left: 15px;
+	    color: #8c8c8c;
+    display: flex;
+    margin: 0 0 0 15px;
     font-size: 1.3em;
 }
 .active{
